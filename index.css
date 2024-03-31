@@ -1,0 +1,39 @@
+/*
+ 900px: page width
+ 550px: hero text width
+*/
+
+body {
+	background-color: #202020;
+	color: #ffffff;
+	accent: #691447;
+	font-family: monospace;
+	font-size: 14px;
+	}
+
+button {
+	background-color: #691337; 
+	border-color: #691337; 
+	color: #ffffff;
+}
+
+.container {
+  white-space: pre;
+}
+.main {
+  display: flex;
+}
+.text {
+  max-width: 900px;
+  white-space: pre-wrap;
+}
+.main .text {
+  max-width: 550px;
+}
+
+.fit {
+  width: fit-content;
+}
+.center {
+  margin: 0 auto;
+}
